@@ -1,0 +1,18 @@
+package io.github.thatkawaiisam.queue.api;
+
+public enum QueueAction {
+
+    LIST_QUEUES,
+    SET_QUEUE_STATE,
+    CLEAR_QUEUE,
+    CONFIRM_CLEAR_QUEUE,
+    ADD_TO_QUEUE,
+    CONFIRM_ADD_TO_QUEUE,
+    REMOVE_FROM_QUEUE,
+    CONFIRM_REMOVE_FROM_QUEUE,
+    TRANSFER_PLAYER,
+    QUEUE_SERVER_STATUS,
+    NETWORK_REJOIN,
+    NETWORK_LEAVE
+
+}
